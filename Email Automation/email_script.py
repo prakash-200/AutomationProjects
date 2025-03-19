@@ -10,11 +10,11 @@ import PyPDF2
 from fuzzywuzzy import fuzz
 
 # Email credentials (REPLACE WITH YOUR CREDENTIALS)
-EMAIL_USER = "ingeniumprakash@zohomail.in"
-EMAIL_PASSWORD = "pVLWzwcfTAkP"
+EMAIL_USER = ""
+EMAIL_PASSWORD = ""
 
 # OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # List of PDF file paths (REPLACE WITH YOUR PDF PATHS)
 PDF_FILE_PATHS = ["./Adiabatic.pdf", "./Cooling.pdf", "./DSS.pdf"]

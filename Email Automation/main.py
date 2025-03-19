@@ -93,8 +93,8 @@ Your Name"""
 
 
 # Replace with your credentials
-sender_email = "ingeniumprakashraj@gmail.com"  # Your email address
-sender_password = "Prakashraj@EKA2024"  # Your email password or app-specific password
+sender_email = ""  # Your email address
+sender_password = ""  # Your email password or app-specific password
 
 # Run the check every minute
 while True:

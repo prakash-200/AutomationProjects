@@ -3,7 +3,7 @@ import openai
 import time
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Function to generate a product description
 def generate_description(product_title):
