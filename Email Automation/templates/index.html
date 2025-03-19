@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Processor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Email Processing App</h1>
+        <form action="/run-script" method="post">
+            <button type="submit">Run Email Script</button>
+        </form>
+        <br>
+        <a href="/zoho_email_responses.xlsx" class="download-btn">Download Excel File</a>
+    </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Processor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Email Processing App</h1>
+        <form action="/submit-details" method="post">
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="sheet_name">Select Excel Sheet:</label>
+            <select id="sheet_name" name="sheet_name" required>
+                <option value="adiabatic">Adiabatic</option>
+                <option value="ad">Advertisement</option>
+                <option value="site visit">Site Visit</option>
+                <option value="dust suppression">Dust Suppression</option>
+                <option value="fog cannon">Fog Cannon</option>
+                <option value="Purchase Order">Purchase Order</option>
+                <option value="Misting">Misting</option>
+                <option value="nozzle">Nozzle</option>
+                <option value="others">Others</option>
+            </select>
+
+            <label>
+                <input type="checkbox" name="completed" value="yes"> Mark as Completed
+            </label>
+
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <form action="/run-script" method="post">
+            <button type="submit">Run Email Script</button>
+        </form>
+        <br>
+        <a href="/zoho_email_responses.xlsx" class="download-btn">Download Excel File</a>
+</body>
+
+</html>
