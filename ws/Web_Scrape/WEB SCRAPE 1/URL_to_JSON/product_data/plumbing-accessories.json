@@ -1,0 +1,61 @@
+[
+  {
+    "id": 9589151531301,
+    "title": "Hindware Wall Union With Wall Flange",
+    "handle": "hindware-f860054cp-wall-union-with-wall-flange",
+    "body_html": "<p>Complete your plumbing setup with our essential accessories. From seals to valves, these components ensure your system runs smoothly and efficiently.</p>",
+    "published_at": "2024-08-20T11:55:47-04:00",
+    "created_at": "2024-08-20T11:55:47-04:00",
+    "updated_at": "2024-12-21T08:36:47-05:00",
+    "vendor": "Hindware",
+    "product_type": "Plumbing",
+    "tags": [
+      "Bath Accessories",
+      "Faucets & Showers",
+      "Hindware"
+    ],
+    "variants": [
+      {
+        "id": 49556948713765,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "F860054CP",
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": false,
+        "price": "575.00",
+        "grams": 0,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 9589151531301,
+        "created_at": "2024-08-20T11:55:47-04:00",
+        "updated_at": "2024-12-21T08:36:47-05:00"
+      }
+    ],
+    "images": [
+      {
+        "id": 47508623130917,
+        "created_at": "2024-08-20T11:55:49-04:00",
+        "position": 1,
+        "updated_at": "2024-08-20T11:55:51-04:00",
+        "product_id": 9589151531301,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0865/4245/0981/files/1CVfTC1c9_dWs-YM_D9cJP-yW_xalm6ex.png?v=1724169351",
+        "width": 435,
+        "height": 397
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  }
+]
